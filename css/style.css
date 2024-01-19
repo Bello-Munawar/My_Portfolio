@@ -1,0 +1,27 @@
+body{
+    background-color: #1F2234;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+#home span{
+    border: 1px red solid;
+    padding: 10px;
+    border-radius: 20px;
+}
